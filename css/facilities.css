@@ -1,0 +1,137 @@
+#filter-form {
+    margin: 0 112px;
+}
+
+#facilities {
+    margin-top: 100px;
+    margin: 40px 112px 100px;
+    display: flex;
+    flex-direction: column;
+}
+
+#facility-type {
+    margin-right: 20px;
+}
+
+.facility-thumbnail {
+    display: flex;
+    background-color: #f7f7f777;
+    border-radius: 15px;
+    box-shadow: 0 0 8px #fa5d48b2;
+    margin-bottom: 32px;
+    position: relative;
+}
+
+.facility-thumbnail h4 {
+    padding: 16px 8px 0 16px;
+    color: #7b211d;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 24px;
+}
+
+.facility-thumbnail-img{
+    flex: 1;
+    /*padding: 24px;*/
+}
+
+.facility-thumbnail-img img {
+    width: 100%;
+    object-fit: cover;
+    object-position: top;
+    border-radius: 8px;
+    max-height: 240px;
+    
+}
+
+.facility-thumbnail p {
+    margin: 0; 
+    padding: 0 32px 4px 16px;
+    font-weight: 500;
+    color: #8c7474;
+   
+}
+
+.facility-info{
+    flex: 2;
+    padding: 20px;
+}
+
+
+
+.facility-thumbnail .trainer-info{
+    display: flex;
+    align-items: center;
+    padding: 4px 16px 20px;
+}
+
+.facility-thumbnail .trainer-info p{
+    font-size: 13px;
+    font-weight: 0;
+    color: #898989; 
+}
+
+.facility-thumbnail .trainer-info img{
+    object-fit: cover;
+    width: 40px;
+    height: 40px;
+    border-radius: 28px;
+    margin: 0;
+}
+
+.book-now-container{
+    height: fit-content;
+    width: fit-content;
+    position: absolute;
+    right: 40px;
+    bottom: 32px;
+}
+
+.book-now-button{
+    padding: 12px 30px;
+    border-radius: 10px;
+    background: #7b211d;
+    color: #fff;
+}
+
+.book-now-button:hover{
+    background: #fa5d48;
+    color: #fff;
+}
+
+#price {
+    font-size: 20px;
+    color: #585163;
+}
+
+
+.page-banner {
+    text-align: center;
+    position: relative;
+    height: 300px;
+    margin: 0 112px;
+    align-items: center;
+    background-image: url(../img/facilities-banner.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: left;
+    border-radius: 20px;
+    padding: 20px;
+    margin-top: 12px;
+    /* box-shadow: 0 20px 20px rgba(123, 34, 29, 0.366); */
+}
+
+.page-banner .text{
+    position: relative;
+    top: 100px;
+}
+
+.page-banner .text h1 {
+    font-size: 36px;
+    line-height: 100%;
+    color: #fff;
+    font-weight: 600;
+}
+.page-banner .text p {
+    color: #fff;
+}

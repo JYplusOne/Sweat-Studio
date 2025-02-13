@@ -1,0 +1,90 @@
+.trainer-details-container {
+    margin: 120px 112px 0;
+}
+
+.trainer-details-image {
+    border-radius: 24px;
+}
+
+.trainer-details-image img{
+    object-fit: cover;
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    border: 5px solid  #7b211d;
+    margin-bottom: 20px;
+}
+
+.trainer-details-container h1{
+    font-weight: 700;
+    color: #7b211d;
+    text-align: left;
+    padding: 0;
+    font-size: 40px;
+}
+
+.container-2c {
+    display: flex;
+    margin-top: 32px;
+}
+
+.container-2c .details-right{
+    display: inline-block;
+    flex: 1;
+    padding-left: 100px;
+}
+
+
+.container-2c .details-left{
+    display: flex;
+    flex-direction: column;
+    width: 330px;
+    padding: 24px;
+    background-color: #f7f7f777;
+    box-shadow: 0 5px 3px #fa5d4865;
+    border-radius: 15px;
+    text-align: center;
+}
+
+.container-2c .details-left p{
+    font-weight: 500;
+    font-size: 16px;
+    margin-bottom: 8px;
+}
+
+.container-2c .details-right h2{
+    font-weight:600;
+    color: #585163;
+    font-size: 32px;
+}
+
+.classes {
+    display: flex;
+    justify-content: space-between;
+    width: 865px;
+}
+
+.card{
+    display: inline-block;
+    border: none;
+    background-color: #f7f7f777;
+    box-shadow: 0 3px 6px #fa5d48b2;
+    border-radius: 15px;
+    text-align: center;
+    margin-right: 24px;
+}
+
+.card p{
+    margin: 20px 0;
+}
+
+.class-cards img{
+    height: 120px;
+    width: 264px;
+    object-fit: cover;
+    object-position: top;
+    border-radius: 15px 15px 0 0;
+}
+
+
+

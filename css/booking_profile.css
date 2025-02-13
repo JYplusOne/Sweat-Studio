@@ -1,0 +1,33 @@
+.booking-container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f8f9fa;
+    border: 1px solid #ced4da;
+    border-radius: 8px;
+}
+
+.booking-item {
+    margin-bottom: 15px;
+    padding: 10px;
+    background-color: #ffffff;
+    border: 1px solid #d6d8db;
+    border-radius: 5px;
+}
+
+.booking-title {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.booking-details {
+    font-size: 14px;
+    color: #6c757d;
+}
+
+/* Responsive layout adjustments */
+@media (max-width: 768px) {
+    .booking-container {
+        width: 90%;
+    }
+}

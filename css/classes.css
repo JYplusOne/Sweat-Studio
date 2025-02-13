@@ -1,0 +1,99 @@
+#filter-form {
+    margin: 0 112px;
+}
+
+#classes {
+    margin-top: 100px;
+    margin: 40px 112px 100px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-column-gap: 28px;
+    grid-row-gap: 36px;
+}
+
+#class-type {
+    margin-right: 20px;
+}
+
+.class-thumbnail {
+    display: inline-block;
+    background-color: #f7f7f777;
+    border-radius: 15px;
+    box-shadow: 0 5px 8px #fa5d48b2;
+}
+
+.class-thumbnail h4 {
+    padding: 16px 8px 0 16px;
+    color: #7b211d;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 24px;
+}
+
+.class-thumbnail-img img {
+    height: 150px;
+    width: 300px;
+    object-fit: cover;
+    object-position: top;
+    border-radius: 15px 15px 0 0;
+}
+
+.class-thumbnail p {
+    margin: 0; 
+    padding: 0 16px;
+    padding-bottom: 4px;
+    font-weight: 500;
+    color: #585163;
+}
+
+.class-thumbnail .trainer-info{
+    display: flex;
+    align-items: center;
+    padding: 4px 16px 20px;
+}
+
+.class-thumbnail .trainer-info p{
+    font-size: 13px;
+    font-weight: 0;
+    color: #898989; 
+}
+
+.class-thumbnail .trainer-info img{
+    object-fit: cover;
+    width: 40px;
+    height: 40px;
+    border-radius: 28px;
+    margin: 0;
+}
+
+
+.page-banner {
+    text-align: center;
+    position: relative;
+    height: 300px;
+    margin: 0 112px;
+    align-items: center;
+    background-image: url(../img/classes-banner.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: left;
+    border-radius: 20px;
+    padding: 20px;
+    margin-top: 12px;
+    /* box-shadow: 0 20px 20px rgba(123, 34, 29, 0.366); */
+}
+
+.page-banner .text{
+    position: relative;
+    top: 100px;
+}
+
+.page-banner .text h1 {
+    font-size: 36px;
+    line-height: 100%;
+    color: #fff;
+    font-weight: 600;
+}
+.page-banner .text p {
+    color: #fff;
+}
