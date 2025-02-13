@@ -1,4 +1,4 @@
-![Demo Screenshot](./img/SweatStudio。jpg)
+![Demo Screenshot](./img/SweatStudio.jpg)
 
 **User Manual**  
 1. Install XAMPP and starts the Apache and MySQL.
